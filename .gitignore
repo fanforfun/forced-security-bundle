@@ -1,0 +1,12 @@
+.idea
+.project
+.settings
+.buildpath
+Thumbs.db
+*.orig
+atlassian-ide-plugin.xml
+*.DS_Store
+*~
+*#
+*.log
+composer.lock

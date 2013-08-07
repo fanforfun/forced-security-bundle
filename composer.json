@@ -1,0 +1,25 @@
+{
+    "name":        "fanforfun/forced-security-bundle",
+    "type":        "symfony-bundle",
+    "description": "Forced security (one user at the same time) for Symfony2",
+    "keywords":    ["datepicker", "javascript", "date", "calendar"],
+    "authors":     [
+        {
+            "name":     "Sergey Bondar",
+            "email":    "msnre@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "friendsofsymfony/user-bundle": ">=2.0.*@dev"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Fanforfun\\ForcedSecurityBundle": ""
+        }
+    },
+    "target-dir":  "Fanforfun/ForcedSecurityBundle"
+}
